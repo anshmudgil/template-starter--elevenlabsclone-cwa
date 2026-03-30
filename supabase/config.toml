@@ -1,1 +1,8 @@
-project_id = "rqdlhmqvzzvishdxricz"
+# Replace with your project ref after `supabase link`
+project_id = "your-project-ref"
+
+[api]
+enabled = true
+
+[functions.openclaw-ingest]
+verify_jwt = false
